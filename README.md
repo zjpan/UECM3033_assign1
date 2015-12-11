@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 UECM3033 Numerical Methods (Assignment #1)
 ========================================================
 --------------------------------------------------------
@@ -37,21 +36,6 @@ The following is a screen shot of Git Bash session. Several basic folder navigat
 * *exit* - exit Git Bash
 
 To begin using git we navigate into the folder we would like to use as local repository, say *assign1*. Then, we can initialize the repository by
-
-
-```
-#!/usr/bin/python
-# Code goes here ...
-```
-:::python
-# codes goes here
-
-~~~~~
-codes
-~~~~~
-
-
-
 ```sh
 $ git init
 ```
