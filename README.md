@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 UECM3033 Numerical Methods (Assignment #1)
 ========================================================
 --------------------------------------------------------
@@ -133,7 +134,7 @@ x_0 + 2 x_1 &= 8.
 6. Record all your findings into the `report.md` file. 
 7. Upload into Github together with your modified python script
 
-You noticed that I have mentioned that to report your findings into `report.md` file. It is called a **Markdown** file. Markdown allows you to write using simple plain text format, which then Github can translates it into common webpage HTML. Markdown is especially useful for writing reports with codes and maths equations, it save the hassle of formatting. More information on markdown language can be found here [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/).
+You noticed that I have mentioned that to report your findings into `report.md` file. It is called a **Markdown** file. Markdown allows you to write using simple plain text format, which then Github can translates it into common webpage HTML. Markdown is especially useful for writing reports with codes, it save the hassle of formatting. More information on markdown language can be found here [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/).
 
 The `report.md` file you downloaded can be edited using any text editor like `notepad.exe`. Try to open `report.md` using a text editor and modify the file. Upload into Github and you can see the corresponding changes  will appear in the preview page of `report.md`. 
 
