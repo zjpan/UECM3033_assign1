@@ -124,7 +124,8 @@ In `pyexercise.py`, there are 3 functions: `fun_1`, `my_integral` and `my_soluti
 1. Open the file and edit `pyexercise.py` to calculate the hexadecimal representation of your student ID.
 2. Next, choose an definite integration that you think is interesting. The integration should not be simple polynomials or trigonometry functions that could be solved by hand. Even better if the integration has no simple close form solution.
 3. Modify `my_integral` such that it calculate the integration of your choice. The example shown in the original `pyexercise.py` is to evaluate $$\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}.$$
-(These integrals will be used as testing cases in your assignment 3.)
+(see [README.html](README.html) is the mathematics equation doesn't render properly.)
+These integrals will be used as testing cases in your assignment 3.
 4. Next, setup a system of 10 linear equations with unique solutions. 
 5. Modify `my_solution` such that it calculate the solution of the system of linear equations that you setup. The example in the original file is solving 
 \begin{align*}
