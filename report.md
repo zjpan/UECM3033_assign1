@@ -18,7 +18,7 @@ The reports, codes and supporting documents are uploaded to Github at:
 
 ## Task 2 -- setup python
 
-
+Put here the screen shot of file (python.png)
 ![python.png](python.png)
 
 

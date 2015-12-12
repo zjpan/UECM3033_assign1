@@ -10,6 +10,9 @@ DEADLINES:
 
 **All deadlines are final and no extensions are allowed.** Delay in submission of the assigments will delays the peer review process. Thus a penalty of 1 mark per day will be imposed for one day late in submission of assignment. Each student will need to review two peers. No mark will be awarded if a student failed to review the two peers.
 
+You could always edit and change your submission as many time as you like. However, you are not suppose to change your submission when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and same penalty will be applied.
+
+
 ---------------------------------------------------------
 There are a total of 3 tasks for this assignments:
 
@@ -49,19 +52,19 @@ You will only need to do this once in your computer. Of course you could reconfi
 $ git config --list
 ```
 
-It won't be too useful If git is only to store files locally. Usually we would like sync the local repositories with the cloud based git server for backup or sharing purposes. GitHub is a web-based hosting service that provide git version control. User is allowed to "*push*" or "*pull*" their local repositories to and from remote repositories.
+It won't be too useful If git is only to store files locally. Usually we would like sync the local repositories with the cloud based git server for backup or sharing purposes. Github is a web-based hosting service that provide git version control. User is allowed to "*push*" or "*pull*" their local repositories to and from remote repositories.
 
-First thing first, let sign up a GitHub account.
+First thing first, let sign up a Github account.
 
-- Go to GitHub homepage [https://github.com/join](https://github.com/join). 
-- Enter a username, email and password and click "Sign up for GitHub".
+- Go to Github homepage [https://github.com/join](https://github.com/join). 
+- Enter a username, email and password and click "Sign up for Github".
 - On the next screen, select the **free plan** and click "Finish Sign Up".
 
 To complete **Task 1**:
 
-* Login to your GitHub.
-* While still stay logged in GitHub, go to [https://github.com/yongkheng/UECM3033_assign1](https://github.com/yongkheng/UECM3033_assign1)
-* Click "fork" button at the top right hand corner. Now your GitHub will have a copy of the UECM3033_assign1 repository. Copy the URL.
+* Login to your Github.
+* While still stay logged in Github, go to [https://github.com/yongkheng/UECM3033_assign1](https://github.com/yongkheng/UECM3033_assign1)
+* Click "fork" button at the top right hand corner. Now your Github will have a copy of the UECM3033_assign1 repository. Copy the URL.
 * Go to the google form [http://goo.gl/forms/vfTbe6w89K](http://goo.gl/forms/vfTbe6w89K).
 * Fill in your name, ID and the URL to your newly forked repository.
 * Answer the question in the google form and submit.
@@ -74,7 +77,7 @@ To complete **Task 1**:
 This part of the assignment consists of two parts:
 
 1. Install and take a screen capture of your Python.
-2. Save your screen shot onto GitHub repository.
+2. Save your screen shot onto Github repository.
 
 For the installation of Python, you are encouraged to download and install Anaconda, a completely free Python distribution from Continuum Analytic. 
 
@@ -82,7 +85,7 @@ For the installation of Python, you are encouraged to download and install Anaco
 2. Choose "Python 3.5" suitable to your operating system.
 3. Download and install.
 4. Start Spyder, the IDE (Integrated Development Environment) of Anaconda distribution of Python.
-5. At the Python shell, type the following command and take a screen capture of the entire Spyder IDE, and call it "python.png"
+5. At the Python shell, type the following command and take a screen capture of the entire Spyder IDE, and call it "```python.png```".
 
 ```{}
 import sys
@@ -90,45 +93,53 @@ sys.version
 import this
 ```
 
-If you prefer other distribution of Python other than Anacoda, you could also take a screen capture of the Python of your choice with the 3 lines of code above. However, the version of the Python used, must be 3.1 and above.
+If you prefer other distribution of Python other than Anaconda, you could also take a screen capture of the Python of your choice with the 3 lines of code above. However, the version of the Python used, must be 3.1 and above.
 
-Next is to merge your file "python.png" with your GitHub repository.
+Next is to merge your file ```python.png``` with your Github repository.
 
 #### 1. Clone the repository
 ```
 $ git clone https://github.com/your_github_id/UECM3033_assign1
 ```
-This will create a *UECM3033_assign1* folder. (Remember you can check your current directory with *pwd* and *ls*.) Change into the *UECM3033_assign1* folder.
+This will create a *```UECM3033_assign1```* folder. (Remember you can check your current directory with *`''pwd```* and *```ls```*.) Change into the *`UECM3033_assign1`* folder.
 
-#### 2. Copy "python.png" into *UECM3033_assign1* folder.
+#### 2. Copy and replace your `python.png` into *`UECM3033_assign1`* folder.
 
-#### 3. Commit changes and push to GitHub.
+#### 3. Commit changes and push to Github.
 ```
 $ git add -A
 $ git commit -m "Added python.png"
 $ git push
 ```
 
-#### 4. Verify at GitHub website that "python.png" is added into the repo.
+#### 4. Verify at Github website that "python.png" is added into the repo.
 
 ------------------------------------------------------------
 
-## Task 3 -- modify and run a given Python script
+## Task 3 -- modify Python script and write Markdown report
 
-In the repository that you just cloned, there is a "plot_rnd.py" file. Open the file, edit the following two lines by keyin your student id as the seed of the random number generator. 
-```
-np.random.seed(1234)
-...
-plt.savefig('foo.png')
-```
-2. Run the python script.
-3. Save the resulting picture as "plot_rnd.png".
-4. Upload into GitHub together with your modified python script
+In the repository that you just cloned, there is a `pyexercise.py` file and a `report.md` file. The `pyexercise.py` is a Python script that you will need to modify according to the instruction below. While the markdown file `report.md` is the template for you to report your assignment.
 
-Thee resulting figure is something similar to the following:
+In `pyexercise.py`, there are 3 functions: `fun_1`, `my_integral` and `my_solution`. 
 
-![fig/plot_rnd.png](fig/plot_rnd.png)
+1. Open the file and edit `pyexercise.py` to calculate the hexadecimal representation of your student ID.
+2. Next, choose an definite integration that you think is interesting. The integration should not be simple polynomials or trigonometry functions that could be solved by hand. Even better if the integration has no simple close form solution.
+3. Modify `my_integral` such that it calculate the integration of your choice. The example shown in the original `pyexercise.py` is to evaluate $$\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}.$$
+(These integrals will be used as testing cases in your assignment 3.)
+4. Next, setup a system of 10 linear equations with unique solutions. 
+5. Modify `my_solution` such that it calculate the solution of the system of linear equations that you setup. The example in the original file is solving 
+\begin{align*}
+3 x_0 +x_1 &= 9,\\
+x_0 + 2 x_1 &= 8.
+\end{align*}
+6. Record all your findings into the `report.md` file. 
+7. Upload into Github together with your modified python script
 
+You noticed that I have mentioned that to report your findings into `report.md` file. It is called a **Markdown** file. Markdown allows you to write using simple plain text format, which then Github can translates it into common webpage HTML. Markdown is especially useful for writing reports with codes and maths equations, it save the hassle of formatting. More information on markdown language can be found here [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/).
+
+The `report.md` file you downloaded can be edited using any text editor like `notepad.exe`. Try to open `report.md` using a text editor and modify the file. Upload into Github and you can see the corresponding changes  will appear in the preview page of `report.md`. 
+
+Remember that you could edit and change your `report.md` as many time as you like. However, you are not suppose to change anything when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and penalty will be applied.
 
 ------------------------------------------------------------
 
@@ -136,7 +147,7 @@ Thee resulting figure is something similar to the following:
 
 ### Task 1:
 * install Git Bash
-* create GitHub account
+* create Github account
 * fork UECM3033_assign1 repository
 * submit URL of forked repository
 
@@ -144,11 +155,13 @@ Thee resulting figure is something similar to the following:
 * install Python, capture screen shot
 * clone UECM3033_assign1 repository
 * pull repository
-* submit screen shot "python.png" to GitHub
+* submit screen shot "python.png" to Github
 
 ### Task 3:
-* Edit and run "plot_rnd.py"
-* Submit "plot_rnd.py" and "plot_rnd.png" to GitHub.
+* Edit and modify ```pyexercise.py```
+* Edit and modify ```report.md```
+* Submit ```pyexercise.py``` and ```report.md``` to Github.
 
+-----------------------------------
 
-Once you have submitted your assignment, you may go to [http://goo.gl/forms/of9f5ZzarA](http://goo.gl/forms/of9f5ZzarA) to do your peer review starting 29/6/2015 (Monday) after 12:00 noon.
+<sup>last modified: 12 Dec 2015</sup>
