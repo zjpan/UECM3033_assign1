@@ -5,8 +5,8 @@ UECM3033 Numerical Methods (Assignment #1)
 DEADLINES:
 
  - This assignment will contribute to 5 marks of the coursework.
- - Assignment submission: 29/1/2015 (Friday) by 12:00 noon.
- - Peer Reviews: 5/2/2015 (Friday) by 12:00 noon.
+ - Assignment submission: 29/1/2016 (Friday) by 12:00 noon.
+ - Peer Reviews: 5/2/2016 (Friday) by 12:00 noon.
 
 **All deadlines are final and no extensions are allowed.** Delay in submission of the assigments will delays the peer review process. Thus a penalty of 1 mark per day will be imposed for one day late in submission of assignment. Each student will need to review two peers. No mark will be awarded if a student failed to review the two peers.
 
@@ -51,16 +51,18 @@ $ git config --list
 
 It won't be too useful If git is only to store files locally. Usually we would like sync the local repositories with the cloud based git server for backup or sharing purposes. GitHub is a web-based hosting service that provide git version control. User is allowed to "*push*" or "*pull*" their local repositories to and from remote repositories.
 
-First thing first, let sign up a GitHub account. 
+First thing first, let sign up a GitHub account.
+
 - Go to GitHub homepage [https://github.com/join](https://github.com/join). 
 - Enter a username, email and password and click "Sign up for GitHub".
-- On the next screen, select the free plan and click "Finish Sign Up".
+- On the next screen, select the **free plan** and click "Finish Sign Up".
 
 To complete **Task 1**:
+
 * Login to your GitHub.
 * While still stay logged in GitHub, go to [https://github.com/yongkheng/UECM3033_assign1](https://github.com/yongkheng/UECM3033_assign1)
 * Click "fork" button at the top right hand corner. Now your GitHub will have a copy of the UECM3033_assign1 repository. Copy the URL.
-* Go to the google form [http://goo.gl/forms/AqRxStO81O](http://goo.gl/forms/AqRxStO81O).
+* Go to the google form [http://Put_your_form_here](http://goo.gl/forms/AqRxStO81O).
 * Fill in your name, ID and the URL to your newly forked repository.
 * Answer the question in the google form and submit.
 
@@ -148,8 +150,5 @@ Thee resulting figure is something similar to the following:
 * Edit and run "plot_rnd.py"
 * Submit "plot_rnd.py" and "plot_rnd.png" to GitHub.
 
-One you have submitted your assignment, you may go to [http://goo.gl/forms/of9f5ZzarA](http://goo.gl/forms/of9f5ZzarA) to do your peer review starting 29/6/2015 (Monday) after 12:00 noon.
-=======
-# UECM3033_assign1
-UECM3033 Numerical Methods Assignment 1
->>>>>>> f4f59c142d8efa796c89cdb6e70fbcbb6b65565d
+
+Once you have submitted your assignment, you may go to [http://goo.gl/forms/of9f5ZzarA](http://goo.gl/forms/of9f5ZzarA) to do your peer review starting 29/6/2015 (Monday) after 12:00 noon.
