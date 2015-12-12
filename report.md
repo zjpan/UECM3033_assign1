@@ -19,7 +19,7 @@ The reports, codes and supporting documents are uploaded to Github at:
 ## Task 2 -- setup python
 
 
-![python.png](https://www.python.org/static/img/python-logo.png)
+![python.png](python.png)
 
 
 This part of the assignment consists of two parts:
