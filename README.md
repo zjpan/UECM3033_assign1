@@ -62,7 +62,7 @@ To complete **Task 1**:
 * Login to your GitHub.
 * While still stay logged in GitHub, go to [https://github.com/yongkheng/UECM3033_assign1](https://github.com/yongkheng/UECM3033_assign1)
 * Click "fork" button at the top right hand corner. Now your GitHub will have a copy of the UECM3033_assign1 repository. Copy the URL.
-* Go to the google form [http://Put_your_form_here](http://goo.gl/forms/AqRxStO81O).
+* Go to the google form [http://goo.gl/forms/vfTbe6w89K](http://goo.gl/forms/vfTbe6w89K).
 * Fill in your name, ID and the URL to your newly forked repository.
 * Answer the question in the google form and submit.
 
@@ -79,8 +79,8 @@ This part of the assignment consists of two parts:
 For the installation of Python, you are encouraged to download and install Anaconda, a completely free Python distribution from Continuum Analytic. 
 
 1. Go to [http://continuum.io/downloads](http://continuum.io/downloads)
-2. Choose "I want Python 3.4".
-3. Choose the right OS platform and install.
+2. Choose "Python 3.5" suitable to your operating system.
+3. Download and install.
 4. Start Spyder, the IDE (Integrated Development Environment) of Anaconda distribution of Python.
 5. At the Python shell, type the following command and take a screen capture of the entire Spyder IDE, and call it "python.png"
 
