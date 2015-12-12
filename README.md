@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 UECM3033 Numerical Methods (Assignment #1)
 ========================================================
 --------------------------------------------------------
@@ -11,6 +12,10 @@ DEADLINES:
 **All deadlines are final and no extensions are allowed.** Delay in submission of the assigments will delays the peer review process. Thus a penalty of 1 mark per day will be imposed for one day late in submission of assignment. Each student will need to review two peers. No mark will be awarded if a student failed to review the two peers.
 
 You could always edit and change your submission as many time as you like. However, you are not suppose to change your submission when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and same penalty will be applied.
+
+<div lang="latex">
+\frac{1+sin(x)}{y}
+</div>
 
 ---------------------------------------------------------
 There are a total of 3 tasks for this assignments:
@@ -113,7 +118,7 @@ $ git push
 
 ------------------------------------------------------------
 
-## Task 3 -- modify Python script and write Markdown report
+## Task 3 -- modify and run Python script
 
 In the repository that you just cloned, there is a `pyexercise.py` file and a `report.md` file. The `pyexercise.py` is a Python script that you will need to modify according to the instruction below. While the markdown file `report.md` is the template for you to report your assignment.
 
@@ -136,6 +141,7 @@ x_0 + 2 x_1 &= 8.
 You noticed that I have mentioned that to report your findings into `report.md` file. It is called a **Markdown** file. Markdown allows you to write using simple plain text format, which then Github can translates it into common webpage HTML. Markdown is especially useful for writing reports with codes, it save the hassle of formatting. More information on markdown language can be found here [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/).
 
 The `report.md` file you downloaded can be edited using any text editor like `notepad.exe`. Try to open `report.md` using a text editor and modify the file. Upload into Github and you can see the corresponding changes  will appear in the preview page of `report.md`. 
+
 
 Remember that you could edit and change your `report.md` as many time as you like. However, you are not suppose to change anything when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and penalty will be applied.
 
