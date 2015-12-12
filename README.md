@@ -97,22 +97,20 @@ If you prefer other distribution of Python other than Anaconda, you could also t
 
 Next is to merge your file ```python.png``` with your Github repository.
 
-#### 1. Clone the repository
+##### 1. Clone the repository
 ```
 $ git clone https://github.com/your_github_id/UECM3033_assign1
 ```
 This will create a *```UECM3033_assign1```* folder. (Remember you can check your current directory with *`''pwd```* and *```ls```*.) Change into the *`UECM3033_assign1`* folder.
 
-#### 2. Copy and replace your `python.png` into *`UECM3033_assign1`* folder.
-
-#### 3. Commit changes and push to Github.
+##### 2. Copy and replace your `python.png` into *`UECM3033_assign1`* folder.
+##### 3. Commit changes and push to Github.
 ```
 $ git add -A
 $ git commit -m "Added python.png"
 $ git push
 ```
-
-#### 4. Verify at Github website that "python.png" is added into the repo.
+##### 4. Verify at Github website that "python.png" is added into the repo.
 
 ------------------------------------------------------------
 
