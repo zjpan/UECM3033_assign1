@@ -19,6 +19,12 @@ You could always edit and change your submission as many time as you like. Howev
 katex.render("f(a,b,c) = (a^2+b^2+c^2)^3", mykatex1);
 </script>
 
+<div class="math">
+f(x) = \sqrt{1+x} \quad (x \ge  -1)  </div>
+<p>Some other text here. </p>
+<div class="math">
+f(x) = \sqrt{1+x}, \quad x \ge -1  </div>
+
 ---------------------------------------------------------
 There are a total of 3 tasks for this assignments:
 
