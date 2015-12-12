@@ -1,4 +1,5 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
 UECM3033 Numerical Methods (Assignment #1)
 ========================================================
 --------------------------------------------------------
@@ -13,6 +14,10 @@ DEADLINES:
 
 You could always edit and change your submission as many time as you like. However, you are not suppose to change your submission when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and same penalty will be applied.
 
+<p><span id="mykatex1">...</span></p>
+<script>
+katex.render("f(a,b,c) = (a^2+b^2+c^2)^3", mykatex1);
+</script>
 
 ---------------------------------------------------------
 There are a total of 3 tasks for this assignments:
