@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=latex 2015.10.13)  23 DEC 2015 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=latex 2015.10.13)  23 DEC 2015 17:52
 entering extended mode
 **./out/instructions-math-dvi.tex
 (./out/instructions-math-dvi.tex
@@ -558,35 +558,235 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 172.
 (c:/texlive/2015/texmf-dist/tex/latex/stmaryrd/ustmry.fd) [1
 
 ] [2]
-Runaway argument?
-{align* \]\end {mdDisplaySnippet}
-! Paragraph ended before \end was complete.
-<to be read again> 
-                   \par 
-l.264 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+! Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.193 \end{align*}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\math@cr@@ [#1]->\ifnum 0=`{\fi \iffalse }\fi \math@cr@@@ \noalign 
+                                                                   {\vskip #1\relax }
+l.193 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.264 
-      
+l.193 \end{align*}
+                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.193 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Display math should end with $$.
 <to be read again> 
-                   \par 
-l.264 
-      
+                   \vskip 
+l.193 \end{align*}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+\math@cr@@ [#1]->\ifnum 0=`{\fi \iffalse }\fi \math@cr@@@ \noalign {\vskip #1\relax }
+                                                                                     
+l.193 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \noalign.
+\black@ #1->\noalign 
+                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlineskip \vskip -\ht \strutbox@ \vskip -\dp \strutbox@ \vbox {\noindent \hbox to#1{\strut@ \hfill }}\prevdepth \dimen@ \fi }
+l.193 \end{align*}
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten \endgroup.
+\endalign ->\math@cr \black@ \totwidth@ \egroup 
+                                                \ifingather@ \restorealignstate@ \egroup \nonumber \ifnum 0=`{\fi \iffalse }\fi \else $$\fi \ignorespacesafterend 
+l.193 \end{align*}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{equation*} on input line 191 ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...vir }\@currenvline \space ended by \protect \end {align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.193 \end{align*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.193 \end{align*}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.193 \end{align*}
+                  
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-! LaTeX Error: \begin{equation*} on input line 191 ended by \end{mdSnippets}.
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ->\errmessage  LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                    
+l.194 \]
+        %mdk
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{lrbox} on input line 190 ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ... }\@currenvline \space ended by \protect \end {equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.194 \]
+        %mdk
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.194 \]
+        %mdk
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.194 \]
+        %mdk
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.194 \]
+        %mdk
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\endmdDisplaySnippet ->\egroup 
+                               \end {lrbox}\@savedepth \newpage 
+l.195 \end{mdDisplaySnippet}
+                            %mdk
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{mdDisplaySnippet} on input line 190 ended by \end{lrbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...nvir }\@currenvline \space ended by \protect \end {lrbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.195 \end{mdDisplaySnippet}
+                            %mdk
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<write> \arabic {snippets},\@snippetName 
+                                         ,\the \@snippetWidth ,\the \@snippetHeight ,\the \@snippetDepth 
+l.195 \end{mdDisplaySnippet}
+                            %mdk
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{mdSnippets} on input line 12 ended by \end{mdDisplaySnippet}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...renvline \space ended by \protect \end {mdDisplaySnippet}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.195 \end{mdDisplaySnippet}
+                            %mdk
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{mdSnippets}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -601,21 +801,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: \begin{lrbox} on input line 190 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...r }\@currenvline \space ended by \protect \end {document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help\@err@                                                                   
-                                                                                                                                                                                                                                      
-l.267 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.265 \end{mdSnippets}
+                      
+Things are pretty mixed up, but I think the worst is over.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 267.
@@ -625,50 +816,7 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 267.
 (out/instructions-math-dvi.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 267.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 267.
-! You can't use `\end' in internal vertical mode.
-\enddocument ...@latex@warning@no@line {Label(s) may have changed. Rerun to get cross-references right}\fi \else \@multiplelabels \fi \fi \endgroup \let \AfterEndDocument \@firstofone \@afterenddocumenthook \deadcycles \z@ \@@end 
-                                                                                                                                                                                                                                      
-l.267 \end{document}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: \begin{lrbox} on input line 190 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...r }\@currenvline \space ended by \protect \end {document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help\@err@                                                                   
-                                                                                                                                                                                                                                      
-l.267 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.267 \end{document}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-! Emergency stop.
-<*> ./out/instructions-math-dvi.tex
-                                   
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
  10426 strings out of 493055
  194756 string characters out of 6138346
@@ -677,4 +825,5 @@ Here is how much of TeX's memory you used:
  6809 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,5n,52p,817b,369s stack positions out of 5000i,500n,10000p,200000b,80000s
+
 Output written on out/instructions-math-dvi.dvi (2 pages, 3456 bytes).
