@@ -5,7 +5,7 @@ UECM3033 Numerical Methods (Assignment #1)
 DEADLINES:
 
  - This assignment will contribute to 5 marks of the coursework.
- - Assignment submission: 29/1/2016 (Friday) by 12:00 noon.
+ - Assignment submission: 29/1/2016 (Friday) by 12:00 noon mid.
  - Peer Reviews: 5/2/2016 (Friday) by 12:00 noon.
 
 **All deadlines are final and no extensions are allowed.** Delay in submission of the assigments will delays the peer review process. Thus a penalty of 1 mark per day will be imposed for one day late in submission of assignment. Each student will need to review two peers. No mark will be awarded if a student failed to review the two peers.
