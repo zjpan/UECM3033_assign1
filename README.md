@@ -137,7 +137,7 @@ You noticed that I have mentioned that to report your findings into `report.md` 
 
 The `report.md` file you downloaded can be edited using any text editor like the Windows default text editor, `notepad.exe`. Alternatively, there are [MarkdownPad](http://markdownpad.com/), [Haroopad](http://pad.haroopress.com/user.html), and my favour [ReText](http://sourceforge.net/projects/retext/). Try to open `report.md` using a text editor and modify the file. Upload into Github and you can see the corresponding changes  will appear in the preview page of `report.md`. 
 
-**Note: As Github markdown doesn't render equations well, and if using markdown `report.md` is giving you problem, you could always opt to use microsoft word or other word processor to write your report and submit. Usage of markdown is optinal, but encouraged.** 
+**Note: As Github markdown doesn't render equations well, and if using markdown `report.md` is giving you problem, you could always opt to use microsoft word or other word processor to write your report and submit. Usage of markdown is optional, but encouraged.** 
 
 
 Remember that you could edit and change your `report.md` as many time as you like. However, you are not suppose to change anything when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and penalty will be applied.
