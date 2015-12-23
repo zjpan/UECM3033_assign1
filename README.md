@@ -4,7 +4,7 @@ UECM3033 Numerical Methods (Assignment #1)
 
 
 
-Since github README.md doesn't really render maths equations well, I have created another html file for the [instructions here.](http://yongkheng.github.io/UECM3033/assign1/instructions.html) 
+Since github README.md doesn't really render maths equations well, I have created another html file for the [instructions here.](http://yongkheng.github.io/UECM3033_assign1/instructions.html) 
 
 
 **DEADLINES**:
