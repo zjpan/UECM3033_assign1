@@ -124,7 +124,6 @@ These integrals will be used as testing cases in your assignment 3.
 ~
 ~ Equation
 x_0 + 2 x_1 = 8.
-\end{align*}
 ~
 6. Record all your findings into the `report.md` file. 
 7. Upload into Github together with your modified python script
