@@ -2,22 +2,13 @@ UECM3033 Numerical Methods (Assignment #1)
 ========================================================
 --------------------------------------------------------
 
-DEADLINES:
-
- - This assignment will contribute to 5 marks of the coursework.
- - Assignment submission: 29/1/2016 (Friday) by 12:00 noon.
- - Peer Reviews: 5/2/2016 (Friday) by 12:00 noon.
-
-**All deadlines are final and no extensions are allowed.** Delay in submission of the assigments will delays the peer review process. Thus a penalty of 1 mark per day will be imposed for one day late in submission of assignment. Each student will need to review two peers. No mark will be awarded if a student failed to review the two peers.
-
-You could always edit and change your submission as many time as you like. However, you are not suppose to change your submission when the peer reviews starts. Your reviewers will be asked to check the last modified dates of your files. If the dates is beyond the stipulated due dates, you will be considered as late submission and same penalty will be applied.
-
----------------------------------------------------------
 There are a total of 3 tasks for this assignments:
 
 - setup a github repository
 - setup Python
 - modify and run a given Python script.
+
+--------------------------------------------------------
 
 ## Task 1 -- setup a github repository
 
@@ -65,7 +56,7 @@ To complete **Task 1**:
 * While still stay logged in Github, go to [https://github.com/yongkheng/UECM3033_assign1](https://github.com/yongkheng/UECM3033_assign1)
 * Click "fork" button at the top right hand corner. Now your Github will have a copy of the UECM3033_assign1 repository. Copy the URL.
 * Go to the google form [http://goo.gl/forms/vfTbe6w89K](http://goo.gl/forms/vfTbe6w89K).
-* Fill in your name, ID and the URL to your newly forked repository.
+* Fill in your name, ID and the URL of your newly forked repository.
 * Answer the question in the google form and submit.
 
 
@@ -76,7 +67,7 @@ To complete **Task 1**:
 This part of the assignment consists of two parts:
 
 1. Install and take a screen capture of your Python.
-2. Save your screen shot onto Github repository.
+2. Save your screen shot onto your Github repository.
 
 For the installation of Python, you are encouraged to download and install Anaconda, a completely free Python distribution from Continuum Analytic. 
 
