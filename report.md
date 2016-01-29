@@ -65,4 +65,4 @@ In this section, please report:
 -----------------------------------
 
 <sup>last modified: 28 January 2016</sup>
-s e^{-1/4}divided by 2.$$
+
